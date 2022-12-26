@@ -32,5 +32,5 @@ export default function Typewriter(input: CounterPropsText) {
         };
     }, [currentText, input])
 
-    return <span class={tw`leading-loose`}>{currentText}<span class={tw`inline animate-pulse`}>_</span></span>
+    return <span class={tw`leading-loose dark:text-cyan-700 font-bold`}>{currentText}<span class={tw`inline animate-pulse`}>_</span></span>
 }
