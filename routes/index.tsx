@@ -10,7 +10,7 @@ export default function Home() {
             <div class={tw`dark:bg-gray-800 min-h-screen`}>
                 <div class={tw` flex flex-col xl:flex-row place-items-center xl:h-screen w-screen`}>
                     <div class={tw`flex1 xl:w-1/2 p-3 place-items-center`}>
-                        <div class={tw`font-mono mt-10 xl:mt-0 p-9 xl:p-0 text-center dark:text-white text-5xl`}>
+                        <div class={tw`font-mono mt-10 xl:mt-0 p-9 xl:p-0 text-center font-bold dark:text-cyan-700 text-5xl`}>
                             <span class="relative">
                                 <p> Hi, I'm</p>
                                 <Typewriter text={cv.default.nickname}/>
