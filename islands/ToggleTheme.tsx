@@ -4,11 +4,13 @@ import { tw } from "@twind";
 import { useState, useEffect } from "preact/hooks";
 
 export default function setTheme() {
-    const ISSERVER = typeof window === "undefined";
-
-    if (!ISSERVER) {
+    if (typeof window !== 'undefined') {
         return ifDarkValid()
     }
+
+    return (
+        <div></div>
+    )
 }
 
 function ifDarkValid<T>() {
