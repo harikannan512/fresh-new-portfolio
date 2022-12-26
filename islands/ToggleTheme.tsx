@@ -6,8 +6,10 @@ import { useState, useEffect } from "preact/hooks";
 export default function setTheme<T>() {
     const [isDark, setIsDark] = useState(localStorage.theme == 'dark')
 
+    const ISSERVER = typeof window === "undefined";
+
     useEffect(() => {
-        if (isDark){
+        if (isDark && !ISSERVER){
             localStorage.theme = 'dark'
         } else {
             localStorage.theme = 'light'
