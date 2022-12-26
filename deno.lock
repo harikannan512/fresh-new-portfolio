@@ -85,6 +85,8 @@
     "https://deno.land/x/preact_split_pane@v0.1.2/deps.ts": "723ae2c7a432533d4db0067312f1f178c7295d159d96c602ec75691dfb34ad1b",
     "https://deno.land/x/preact_split_pane@v0.1.2/mod.ts": "3a21b092a5085e5a43ef245bc5beabae022d65f22c95539a72e40605a4091981",
     "https://deno.land/x/semver@v1.4.0/mod.ts": "c3e08f7f0a3e625015ecc9a46cf79a9dc3f081f3c5b3037d3c49c0773e58d265",
+    "https://deno.land/x/virtualstorage@0.1.0/mod.ts": "9449c2f86fab7d09fd7b76446c7852515bbe512cca925a93793e0361d1e266d4",
+    "https://deno.land/x/virtualstorage@0.1.0/virtualStorage.ts": "602965ab9985f0e330587db8b60c2639611622cfd608d1964ade58ed746db09d",
     "https://esm.sh/preact-render-to-string@5.2.0?deps=preact@10.8.1": "7fa5bd038dd7924d056363b6033ff52f12bcd3012d5a8e7b187fa110cab427b6",
     "https://esm.sh/preact@10.11.3": "bb13c4579a68025fbfe7304c0c4dba6ec286c89bce5db830e56507851b208b80",
     "https://esm.sh/preact@10.11.3/hooks": "ffe990388d4ac9aaa4840e3f713b745dd9fc578cea119ebfe158e1d4dc8e347c",

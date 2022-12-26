@@ -2,6 +2,9 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import { useState, useEffect } from "preact/hooks";
+import { installGlobals } from "https://deno.land/x/virtualstorage@0.1.0/mod.ts";
+
+installGlobals();
 
 export default function setTheme() {
     if (typeof window !== 'undefined') {
@@ -14,15 +17,15 @@ export default function setTheme() {
 }
 
 function ifDarkValid<T>() {
-    const [isDark, setIsDark] = useState(sessionStorage.theme == 'dark')
+    const [isDark, setIsDark] = useState(localStorage.theme == 'dark')
 
     useEffect(() => {
         if (isDark){
-            sessionStorage.theme = 'dark'
+            localStorage.theme = 'dark'
         } else {
-            sessionStorage.theme = 'light'
+            localStorage.theme = 'light'
         }
-        document.querySelector('html')?.setAttribute('class', sessionStorage.theme)
+        document.querySelector('html')?.setAttribute('class', localStorage.theme)
 
     }, [isDark]);
 
