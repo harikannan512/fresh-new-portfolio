@@ -17,10 +17,10 @@ export default function Education() {
                         cv.default.skills.map(skill => (
                             <div>
                                 <span class={tw`bg-gray-500 hover:bg-gray-700 text-gray-200 text-sm font-bold m-2 p-1 text-center rounded dark:bg-blue-200 dark:text-blue-800`}>{skill.name}</span>
-                                <div class={tw`grid grid-cols-4 xl:grid-cols-5 p-4 gap-1`}>
+                                <div class={tw`grid grid-cols-4 xl:grid-cols-5 p-4 xl:gap-1`}>
                                     {
                                         skill.list.map(each => (
-                                            <span class={tw`bg-gray-300 text-gray-800 text-sm font-medium m-2 py-1 text-center rounded dark:bg-gray-700 dark:text-gray-300`}>{each}</span>
+                                            <span class={tw`bg-gray-300 text-gray-800 text-sm font-medium xl:m-2 m-0.5 py-1 text-center rounded dark:bg-gray-700 dark:text-gray-300`}>{each}</span>
                                         ))
                                     }
                                 </div>

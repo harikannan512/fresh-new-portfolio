@@ -56,13 +56,13 @@
         {
             "name": "Languages",
             "list": [
-                " Java/J2EE","Python", "SQL", "Dart", "JS/TS"
+                " Java/ J2EE","Python", "SQL", "Dart", "JS/TS"
             ]
         },
         {
             "name": "Dev Tools",
             "list": [
-               " Git/Github", "Docker", "Kubernetes", "Consul", "Prometheus", "Liquibase", "UNIX/Linux", "Maven"
+               " Git/ Github", "Docker", "Kubernetes", "Consul", "Prometheus", "Liquibase", "UNIX/ Linux", "Maven"
             ]
         },
         {

@@ -29,9 +29,11 @@ export default function Experience() {
                                         </p>
                                     </div>
                                 </div>
-                                <span class={tw`bg-gray-300 text-gray-800 text-xs font-mono font-semibold mx-4 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300`}>
-                                    {proj.footnote}
-                                </span>
+                                <div class={tw`mx-2 px-2.5`}>
+                                    <span class={tw`bg-gray-300 text-gray-800 text-xs font-mono px-1 py-0.5 font-semibold rounded dark:bg-gray-700 dark:text-gray-300`}>
+                                        {proj.footnote}
+                                    </span>
+                                </div>
                                 <div class={tw`pd-4 pt-2`}>
                                     {
                                         proj.description.map(xp_desc => (
