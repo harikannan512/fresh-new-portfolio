@@ -14,15 +14,15 @@ export default function setTheme() {
 }
 
 function ifDarkValid<T>() {
-    const [isDark, setIsDark] = useState(localStorage.theme == 'dark')
+    const [isDark, setIsDark] = useState(sessionStorage.theme == 'dark')
 
     useEffect(() => {
         if (isDark){
-            localStorage.theme = 'dark'
+            sessionStorage.theme = 'dark'
         } else {
-            localStorage.theme = 'light'
+            sessionStorage.theme = 'light'
         }
-        document.querySelector('html')?.setAttribute('class', localStorage.theme)
+        document.querySelector('html')?.setAttribute('class', sessionStorage.theme)
 
     }, [isDark]);
 
