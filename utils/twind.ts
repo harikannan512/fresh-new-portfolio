@@ -6,6 +6,10 @@ export const config: Configuration = {
   mode: "silent",
   theme: {
     extend: {
+      colors: {
+        'cyan-700': '#80CBC4',
+        'teal-500': '#B0C4DE'
+      },
       animation: {
         pulse: 'pulse 0.8s infinite',
       },

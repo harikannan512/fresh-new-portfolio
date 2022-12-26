@@ -5,12 +5,17 @@ import { tw } from "@twind";
 
 interface CounterPropsText {
     text: string;
+    timeout?: number
 }
 
 export default function Typewriter(input: CounterPropsText) {
     
     const index = useRef(0);
     const [currentText, setCurrentText] = useState('');
+
+    if (input.timeout == undefined) {
+        input.timeout = 80
+    }
 
     useEffect(() => {
         index.current = 0;
@@ -21,7 +26,7 @@ export default function Typewriter(input: CounterPropsText) {
         const timeoutId :number = setTimeout(() => {
             setCurrentText((value) => value + input.text.charAt(index.current));
             index.current += 1;
-        }, 80);
+        }, input.timeout);
         return () => {
             clearTimeout(timeoutId);
         };

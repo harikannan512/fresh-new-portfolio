@@ -1,0 +1,104 @@
+{
+    "nickname": "Hari 👋",
+    "name": "Hari Prasad Kannan",
+    "linkedin": "https://www.linkedin.com/in/hari-prasad-kannan",
+    "github": "https://github.com/harikannan512",
+    "spotify": "https://open.spotify.com/user/216chsph2ubdymk4yahcc3i4a",
+    "description": "I am originally from Delhi, and I am quite interested in video games, anime, football, public transport and infrastructure. I am an inquisitive software engineer with a passion to keep on learning new skills and grow as a person and a professional. Currently based in Maidenhead and working as a Software Engineer at WEX Inc UK.",
+    "education": [
+        {
+            "qualification": "BTech, Power Engineering",
+            "institute": "Guru Gobind Singh Indraprastha University",
+            "year": "2020",
+            "result": "8.2/10"
+        },
+        {
+            "qualification": "XII - Central Board of Secondary Education (CBSE)",
+            "institute": "Evergreen Public School, Delhi",
+            "year": "2018",
+            "result": "87.6%"
+        }
+    ],
+    "experience": [
+        {
+            "company": "WEX Inc",
+            "position": "Software Engineer",
+            "date": "Mar 2021 - Present",
+            "footnote": "London, United Kingdom",
+            "description": [
+                "Implemented RESTful and SOAP APIs in a microservice architecture using Spring Boot, Docker and Kubernetes.",
+                "Implemented and delivered monitoring and service discovery solution after presenting a proof of concept using Consul Connect, Prometheus, Grafana and Alert Manager and integrating with the microservices mesh.",
+                "Designed and implemented custom OAuth2-based authentication workflow using Okta OIDC",
+                "Took responsibility for migration from legacy code to the new microservices stack and end-to-end design and delivery for one of our clients. Delivery contributed to a majority of organisation revenue in Q1 and Q2 2022.",
+                "Create a proof of concept using a Flutter application for NFC-based authentication and authorisation for EV smart charging (docking and fleet payment) with event-based registration and deregistration using Kafka"
+            ]
+        },
+        {
+            "company": "Secure Meters Ltd",
+            "position": "Graduate Electrical Engineer",
+            "date": "Jul. 2020 - Feb. 2021",
+            "footnote": "New Delhi, India",
+            "description": [
+                "Research electricity and business-related policies in South-East Asia. Market research in various countries for smart-metering and AMR implementation opportunities. Handle the demands of different clients with the appropriate Meter technical specifications as per the International IEC Standards as required"
+            ]
+        },
+        {
+            "company": "Secure Meters Ltd",
+            "position": "Intern",
+            "date": "Jan. 2020 - Jun. 2020",
+            "footnote": "New Delhi, India",
+            "description": [
+                "Suggested multiple improvements in functional and protective equipment inventory and made workflow improvements in equipment logistics to improve electrical installation and erection efficiency by 27% on average"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages",
+            "list": [
+                " Java/J2EE","Python", "SQL", "Dart", "JS/TS"
+            ]
+        },
+        {
+            "name": "Dev Tools",
+            "list": [
+               " Git/Github", "Docker", "Kubernetes", "Consul", "Prometheus", "Liquibase", "UNIX/Linux", "Maven"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "list": [
+                "Spring Boot", "Spring Batch", "Angular", "JUnit", "Mockito", "MongoDB", "Kafka", "Flutter"
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "",
+            "footnote": "",
+            "date": ""
+        }
+    ],
+    "projects": [
+        {
+            "name": "Reddit Clone App",
+            "footnote": "Java, Typescript, Angular, Sprint Boot, PostgreSQL, Git",
+            "date": "Nov 2020 - Jan 2021",
+            "link": "",
+            "description":[
+                "Created a Reddit clone using RESTful backend and a single page application frontend",
+                "Developed in Java using Spring Boot, Hibernate ORM for persistence in PostgreSQL database in the backend and TypeScript using Angular framework in the front end"
+            ]
+        },
+        {
+            "name": "Travel Blog",
+            "footnote": "Python, Django, Ninja, PostgreSQL, Git",
+            "date": "May 2020 - Aug 2020",
+            "link": "",
+            "description":[
+                "A web app with user sessions where for blogging travel stories online where users can write, view, edit and delete posts made by them, along with customising their account profile",
+                "Developed in Python using Django (Python) in the backend, HTML/CSS in the frontend, PostgreSQL database"
+            ]
+        }
+    ]
+}
