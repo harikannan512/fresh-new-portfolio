@@ -3,13 +3,19 @@ import { h } from "preact";
 import { tw } from "@twind";
 import { useState, useEffect } from "preact/hooks";
 
-export default function setTheme<T>() {
-    const [isDark, setIsDark] = useState(localStorage.theme == 'dark')
-
+export default function setTheme() {
     const ISSERVER = typeof window === "undefined";
 
+    if (!ISSERVER) {
+        return ifDarkValid()
+    }
+}
+
+function ifDarkValid<T>() {
+    const [isDark, setIsDark] = useState(localStorage.theme == 'dark')
+
     useEffect(() => {
-        if (isDark && !ISSERVER){
+        if (isDark){
             localStorage.theme = 'dark'
         } else {
             localStorage.theme = 'light'
