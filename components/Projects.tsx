@@ -24,8 +24,8 @@ export default function Experience() {
                                     </div>
                                     <div class={tw`flex-1 shrink text-sm xl:ml-20 xl:p-4 font-medium`}>
                                         {proj.date}
-                                        <p class={tw`italic text-sm`}>
-                                            {proj.link}
+                                        <p class={tw`italic font-sans text-sm`}>
+                                            <a href={proj.link} target="_blank">{proj.link}</a>
                                         </p>
                                     </div>
                                 </div>

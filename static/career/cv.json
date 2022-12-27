@@ -84,7 +84,7 @@
             "name": "Reddit Clone App",
             "footnote": "Java, Typescript, Angular, Sprint Boot, PostgreSQL, Git",
             "date": "Nov 2020 - Jan 2021",
-            "link": "",
+            "link": "https://github.com/harikannan512/FccReddit",
             "description":[
                 "Created a Reddit clone using RESTful backend and a single page application frontend",
                 "Developed in Java using Spring Boot, Hibernate ORM for persistence in PostgreSQL database in the backend and TypeScript using Angular framework in the front end"
@@ -94,7 +94,7 @@
             "name": "Travel Blog",
             "footnote": "Python, Django, Ninja, PostgreSQL, Git",
             "date": "May 2020 - Aug 2020",
-            "link": "",
+            "link": "https://github.com/harikannan512/travelblog",
             "description":[
                 "A web app with user sessions where for blogging travel stories online where users can write, view, edit and delete posts made by them, along with customising their account profile",
                 "Developed in Python using Django (Python) in the backend, HTML/CSS in the frontend, PostgreSQL database"
