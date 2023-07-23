@@ -87,7 +87,7 @@
             "date": "Dec 2022 onwards",
             "link": "https://github.com/harikannan512",
             "description":[
-                "Contribute to Cloud Native Computing Foundation based OSS projects in Go like buildpacks/pack and open-policy-agent/opa"
+                "Contribute to Cloud Native Computing Foundation based OSS projects in Go like containers/podman, buildpacks/pack and open-policy-agent/opa"
             ]
         },        {
             "name": "Reddit Clone App",

@@ -17,8 +17,8 @@ export default function Career(){
                 <div class={tw` flex1 flex-row xl:flex-col place-items-center xl:mt-20`}>
                     <div class={tw`grid grid-row-5`}>
                         <Header/>
-                        <Education/>
                         <Experience/>
+                        <Education/>
                         <Skills/>
                         {/* <Certifications/> */}
                         <Projects/>
