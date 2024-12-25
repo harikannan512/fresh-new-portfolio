@@ -1,7 +1,7 @@
 /** @jsx h */
 import { h } from "preact";
 import { tw } from "@twind";
-import * as cv from "../static/career/cv.json" assert { type: "json" };
+import * as cv from "../static/career/cv.json" with { type: "json" };
 
 export default function Certifications() {
     return (

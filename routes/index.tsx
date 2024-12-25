@@ -3,7 +3,7 @@ import { h } from "preact";
 import { tw } from "@twind";
 import Typewriter from "../islands/Typewriter.tsx";
 import ToggleTheme from "../islands/ToggleTheme.tsx";
-import * as cv from "../static/career/cv.json" assert { type: "json" };
+import * as cv from "../static/career/cv.json" with { type: "json" };
 
 export default function Home() {
     return (
@@ -29,7 +29,8 @@ export default function Home() {
                             </div>
                             <div class={tw` p-1 m-5 dark:text-white hover:font-bold`}>
                                 <a target="_blank" href={cv.default.github}>
-                                    Github <img src="/github-mark/github-mark.svg" alt="github logo" class={tw`inline h-4 dark:hidden`}/><img src="/github-mark/github-mark-white.svg" alt="github logo" class={tw`inline h-4 hidden`}/>
+                                    Github <img src="/github-mark/github-mark.png" alt="github logo" class={tw`inline h-4 dark:hidden`}/>
+                                    <img src="/github-mark/github-mark-white.png" alt="github logo" class={tw`hidden dark:inline h-4`}/>
                                 </a>
                             </div>
                             <div class={tw`p-1 m-5 dark:text-white hover:font-bold`}>
@@ -37,19 +38,9 @@ export default function Home() {
                                     LinkedIn <img src="/linkedin-mark/LI-In-Bug.png" alt="linkedin logo" class={tw`inline h-5`}/>
                                 </a>
                             </div>
-                            <div  class={tw` p-1 m-5 dark:text-white hover:font-bold`}>
-                                <a target="_blank" href={cv.default.spotify}>
-                                    Spotify <img src="/spotify-mark/Spotify_Icon_RGB_Green.png" alt="linkedin logo" class={tw`inline h-5`}/>
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
     );
-}
-
-function setName() {
-    const custom_name = "Venkatesh Prasad Kannan";
-    return custom_name;
 }
