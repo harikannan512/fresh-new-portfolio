@@ -12,7 +12,7 @@ export default function Education() {
                         Education
                     </div>
                 </div>
-                <div class={tw`flex1 xl:w-1/2 xl:p-3 xl:place-items-center`}>
+                <div class={tw`flex1 xl:w-1/2 xl:p-3`}>
                         {
                             cv.default.education.map(edu => (
                                     <div class={tw`flex flex-col xl:flex-row font-mono xl:mt-10 xl:mt-0 p-4 xl:p-0 dark:text-white`}>
