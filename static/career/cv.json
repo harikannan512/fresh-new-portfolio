@@ -21,9 +21,19 @@
     ],
     "experience": [
         {
+            "company": "Visa",
+            "position": "Software Engineer",
+            "date": "Apr 2024 - Present",
+            "footnote": "London, United Kingdom",
+            "description": [
+                "Contributed to features on the modernized replacement of the Visa payments network based on ISO8583 messages between Acquirers and Issuers",
+                "Work on production features for auxiliary backend services to enhance alerting alongwith identifying and cleaning up technical debt"
+            ]
+        },
+        {
             "company": "WEX Inc",
             "position": "Software Engineer",
-            "date": "Mar 2021 - Present",
+            "date": "Mar 2021 - Apr 2024",
             "footnote": "London, United Kingdom",
             "description": [
                 "Streamlined the microservices stack by adding telemetry and service discovery solutions to the stack using Consul Connect, Prometheus, Grafana and Alert Manager to assist with a secure adoption of microservices architecture",
