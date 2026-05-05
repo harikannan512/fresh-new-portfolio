@@ -1,0 +1,198 @@
+baseURL: "https://example.org/"
+theme: "terminalcv"
+title: "Hari Prasad Kannan - Portfolio"
+
+params:
+  version: "v26.05.05"
+  description: "Hari Prasad Kannan's Terminal CV"
+  blog: 
+    enabled: false
+    lsClassic: true
+  
+  prompt:
+    core:
+      text: "hari@portfolio"
+      color: "cyan"
+      before: "["
+      beforeColor: "green"
+      after: ']'
+      afterColor: "green"
+    separator:
+      text: "-"
+      color: "white"
+    path:
+      before: "["
+      beforeColor: "green"
+      text: "~/cv"
+      color: "blue"
+      after: ']'
+      afterColor: "green"
+    extra:
+      text: "$ "
+      color: "white"
+
+  exitMessage: "[Session completed, the browser window can be safely closed]"
+  source: true
+  cvPdfLocation: "/career/cv-en.pdf"
+  
+  bootsequence: |
+    Initializing terminal...
+    Loading portfolio data...
+    Ready.
+  
+  greetingBannerColor: cyan
+  greetingBanner: |
+    ‎
+    ╔═══════════════════════════════════════════════════════════════╗
+    ║                                                               ║
+    ║              H A R I   P R A S A D   K A N N A N              ║
+    ║                                                               ║
+    ╚═══════════════════════════════════════════════════════════════╝
+
+  greeting: |
+    Welcome to my online resume!
+    
+    I am a Software Engineer based in the UK with experience in distributed systems,
+    microservices, and cloud technologies.
+    
+    Type 'help' for a list of available commands
+
+  whois:
+    details:
+      leftColor: "cyan"
+      rightColor: "white"
+      descriptionColor: "grey"
+      name: "Hari Prasad Kannan"
+      profession: "Software Engineer"
+      location: "Maidenhead, United Kingdom"
+      email: "hari.kannan@outlook.com"
+      homelink: "https://github.com/harikannan512"
+      description: |
+        I am originally from Delhi, and I am quite interested in video games, anime, 
+        football, public transport and infrastructure. I am an inquisitive software 
+        engineer with a passion to keep on learning new skills and grow as a person 
+        and a professional. Currently based in Maidenhead and working as a Software 
+        Engineer at Visa Inc in Reading UK.
+
+  social:
+    details:
+      - name: "GitHub"
+        url: "https://github.com/harikannan512"
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/hari-prasad-kannan"
+
+  work:
+    details:
+      - jobTitle: Software Engineer
+        color: cyan
+        company: "Visa"
+        location: "London, United Kingdom"
+        date: "Apr 2024 - Present"
+        description: |
+          • Designed and implemented functional workflows for transaction processing as part of 
+            an ongoing effort to modernise the VisaNet payments platform with end to end functional 
+            parity for multicurrency and payment authorisation based on ISO8583
+          • Delivered scalable features in an event-driven distributed microservices ecosystem using 
+            Kafka, gRPC, Golang, Cassandra, and IBM DB2, improving system latency and reliability
+          • Alongside delivering product prioritised features for the overall project, actively 
+            involved in the in house GENAI team to develop internal tools for helping developer 
+            experience and productivity (PR Review bot, bug-analysis bot)
+          • Took ownership for deployment and lifecycle management of AI powered bug-analysis bot, 
+            acting in a pseudo devops role leveraging lightweight tools like systemd timers, Git, 
+            Podman CLI
+          • Mentored junior engineers during their on-boarding process helping them get familiarised 
+            with OVN tech stack and business context
+
+      - jobTitle: Software Engineer
+        color: green
+        company: "WEX Inc"
+        location: "London, United Kingdom"
+        date: "Mar 2021 - Apr 2024"
+        description: |
+          • Streamlined the microservices stack by adding telemetry and service discovery solutions 
+            using Consul Connect, Prometheus, Grafana and Alert Manager
+          • Took responsibility for EMEA pilot delivery, demonstrating improvements in delivery time 
+            of up to 20%
+          • Designed and implemented custom OAuth2-based authentication workflow using Okta OIDC
+          • Assumed ownership of an in-house framework for running batch jobs based on Cron Scheduler
+          • Worked on integrating multiple business partners into a new EV platform creating a 
+            client-agnostic system
+          • Created an extensible Kafka interface for this EV platform and worked across different teams
+
+      - jobTitle: Graduate Electrical Engineer
+        color: blue
+        company: "Secure Meters Ltd"
+        location: "New Delhi, India"
+        date: "Jul 2020 - Feb 2021"
+        description: |
+          • Research electricity and business-related policies in South-East Asia
+          • Market research in various countries for smart-metering and AMR implementation opportunities
+          • Handle the demands of different clients with the appropriate Meter technical specifications 
+            as per the International IEC Standards as required
+
+      - jobTitle: Intern
+        company: "Secure Meters Ltd"
+        location: "New Delhi, India"
+        date: "Jan 2020 - Jun 2020"
+        description: |
+          • Suggested multiple improvements in functional and protective equipment inventory
+          • Made workflow improvements in equipment logistics to improve electrical installation 
+            and erection efficiency by 27% on average
+
+  education:
+    details:
+      - courseName: "BTech, Power Engineering"
+        color: cyan
+        date: "2020"
+        description: |
+          Guru Gobind Singh Indraprastha University
+          Result: 8.2/10
+
+      - courseName: "XII - Central Board of Secondary Education (CBSE)"
+        date: "2018"
+        description: |
+          Evergreen Public School, Delhi
+          Result: 87.6%
+
+  skills:
+    details:
+      - name: "Languages"
+        color: cyan
+        description: "Java/J2EE • Python • SQL • Dart • JavaScript/TypeScript • GoLang"
+      - name: "Dev Tools"
+        color: green
+        description: "Git/GitHub • Docker • Kubernetes • Consul • Prometheus • Liquibase • UNIX/Linux • Maven"
+      - name: "Frameworks"
+        color: blue
+        description: "Spring Boot • Spring Batch • Angular • Preact • FreshJS • JUnit • Mockito • MongoDB • Kafka • Flutter"
+
+  osc:
+    commandName: "osc"
+    title: "Open Source Contributions"
+    titleColor: cyan
+    content: |
+      Contributing to Cloud Native Computing Foundation (CNCF) based open source projects: 
+      
+      • [[b;white;]containers/podman] - Container management tool
+      • [[b;white;]buildpacks/pack] - Cloud Native Buildpacks CLI
+      • [[b;white;]open-policy-agent/opa] - Policy-based control engine
+      
+      [[b;green;]Technologies:] Go, Git, Docker
+      [[b;green;]GitHub:] https://github.com/harikannan512
+    contentColor: white
+
+  misc:
+    commandName: "interests"
+    title: "Personal Interests"
+    titleColor: cyan
+    content: |
+      When I'm not coding, you can find me:
+      
+      • Playing video games (RPGs and strategy games are my favorites)
+      • Watching anime (always looking for recommendations!)
+      • Following football (passionate about the beautiful game)
+      • Exploring public transport systems and urban infrastructure
+      • Learning about city planning and sustainable development
+      
+      I believe in continuous learning and staying curious about the world around us.
+    contentColor: white
