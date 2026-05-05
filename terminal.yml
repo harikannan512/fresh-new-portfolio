@@ -43,11 +43,8 @@ params:
   greetingBannerColor: cyan
   greetingBanner: |
     ‎
-    ╔═══════════════════════════════════════════════════════════════╗
-    ║                                                               ║
-    ║              H A R I   P R A S A D   K A N N A N              ║
-    ║                                                               ║
-    ╚═══════════════════════════════════════════════════════════════╝
+    H A R I   P R A S A D   K A N N A N
+    ‎
 
   greeting: |
     Welcome to my online resume!
