@@ -25,8 +25,11 @@
             "date": "Apr 2024 - Present",
             "footnote": "London, United Kingdom",
             "description": [
-                "Contributed to features on the modernized replacement of the Visa payments network based on ISO8583 messages between Acquirers and Issuers",
-                "Work on production features for auxiliary backend services to enhance alerting alongwith identifying and cleaning up technical debt"
+                "Designed and implemented functional workflows for transaction processing as part of an ongoing effort to modernise the VisaNet payments platform with end to end functional parity for multicurrency and payment authorisation based on ISO8583}",
+                "Delivered scalable features in an event-driven distributed microservices ecosystem using Kafka, gRPC, Golang, Cassandra, and IBM DB2, improving system latency and reliability}",
+                "Alongside delivering product prioritised features for the overall project, actively involved in the in house GENAI team to develop internal tools for helping developer experience and productivity. eg - PR Review bot, bug-analysis bot}",
+                "Took ownership for deployment and lifecycle management of AI powered bug-analysis bot, acting in a psuedo devops role leveraging lightweight and preinstalled tools like systemd timers, Git, Podman CLI - with a personal goal of keeping external dependency bloat to minimum while matching the informal uptime SLA}",
+                "Mentored junior engineers during their on-boarding process helping them get familiarised with OVN tech stack and business context"
             ]
         },
         {
